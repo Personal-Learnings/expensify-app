@@ -6,7 +6,8 @@ const path = require("path");
 //__dirname gets the current path the relative path "c:/..."
 // Others are the webpack configurations
 module.exports = {
-  entry: "./src/app.js",
+  //entry: "./src/app.js",
+  entry: "./src/playground/redux-101.js",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js" //The final output file (All js are combined and formed into a single output file)
