@@ -7,7 +7,7 @@ const path = require("path");
 // Others are the webpack configurations
 module.exports = {
   //entry: "./src/app.js",
-  entry: "./src/playground/redux-101.js",
+  entry: "./src/playground/redux-expensify.js",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js" //The final output file (All js are combined and formed into a single output file)
